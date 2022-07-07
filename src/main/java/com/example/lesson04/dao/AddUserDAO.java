@@ -14,5 +14,7 @@ public interface AddUserDAO {
 			@Param("introduce") String introduce );
 	
 	public AddUser selectLastNewUser();
+	
+	public boolean existNewUserByName(String name);
 
 }
